@@ -35,7 +35,7 @@
 | **YOLO v11** | 범용 객체 탐지 | 속도 빠르고 다양한 객체 대응 가능 |
 
 ## 3 . 앙상블 방식 설계
-📌통합 설계 구조
+### 📌통합 설계 구조
 <br>[PeopleNet Output]
 <br>[TrafficNet Output]
 <br>[YOLO v11 Output]
@@ -48,7 +48,7 @@
 <br>        ↓
 <br>[최종 Detection 결과]
 
-📌단계별 구현 방법
+### 📌단계별 구현 방법
 <br>🔹 1) 클래스 통일 (Class Harmonization)
 <br>세 모델은 각기 다른 클래스 체계를 가질 수 있음
 
